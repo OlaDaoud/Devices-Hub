@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/stylesheet.css">
+<title> Devices Hub</title>
+</head>
+<body>
+
+<h1 class="banner">My Devices</h1>
+<section class="content">
+<section class="input">
+    <form id="buyDeviceForm" >
+        <div>
+            <div>
+            <label id="name" for="itemName">Item Name</label> <br>
+            <input type="text" id="itemName" name="name" required> <br>
+            <label id="ItemCategory" for="itemName">Category</label> <br>
+            <select id="itemCat" name="category" required>
+                <option >Mobile</option>
+                <option> Laptop</option>
+                <option>Tablet</option>
+            </select> <br>
+            <label  id="number" for="itemQuant"> Quantity <label> <br>
+            <input type="number" id="itemQuant" name="number" required> <br>
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </div>
+    </form>
+</section>
+
+<section id="resultSection">
+<h3>Total:</h3>
+</section>
+</section>
+
+</body>
+<script src="js/app.js"></script>
+</html>
